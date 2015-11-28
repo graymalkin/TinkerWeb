@@ -1,0 +1,3 @@
+[submodule "assets/js/jquery-gcal-flow"]
+	path = assets/js/jquery-gcal-flow
+	url = https://github.com/sugi/jquery-gcal-flow/
