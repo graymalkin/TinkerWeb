@@ -1,39 +1,27 @@
 {
     "current_committee" : [{
-        "name" : "HAL 9000",
+        "name" : "Simon Cooksey",
         "comment" : "President",
-        "image" : "committee/dan.jpg",
-        "url" : "http://cs.kent.ac.uk/~dk242/"
+	"image" : "committee/simon.jpg",
+        "url" : "https://graymalk.in/"
     },
     {
-        "name" : "Christina Nutton",
-        "comment" : "Treasurer",
-        "image" : "committee/christina.jpg",
-        "url" : null
-    },
-    {
-        "name" : "Jodie Perry",
+        "name" : "Jonathan Poole",
         "comment" : "Secretary",
-        "image" : "committee/jodie.jpg",
-        "url" : "http://jodieperry.me/"
+	"image" : "committee/jon.jpg",
+        "url" : "http://tatskaari.co.uk/"
+    },
+    {
+        "name" : "Si Styles",
+        "comment" : "Treasurer",
+	"image": "committee/si.jpg",
+        "url" : "http://si.styles.me"
     },
     {
         "name" : "Liam O'Brien",
         "comment" : "Radio Officer",
         "image" : "committee/liam.jpg",
         "url": null
-    },
-    {
-        "name" : "Martin Faulkner",
-        "comment" : "Officer",
-        "image" : "committee/martin.jpg",
-        "url" : "http://www.martinfaulkner.co.uk/"
-    },
-    {
-        "name" : "Robert Meekings",
-        "comment" : "Officer",
-        "image" : "committee/robert.jpg",
-        "url" : null
     }],
     "the_fallen" : [{
         "name" : "Omer Kilic",
@@ -67,27 +55,52 @@
     },
     {
         "name" : "Jordan Cook",
-        "comment" : "Communications Officer (2010/2011)",
+        "comment" : "Officer (2013/2014)",
         "url" : null
     },
     {
         "name" : "Berni Cross",
-        "comment" : "Communications Officer (2010/2011)",
+        "comment" : "Secretary (2013/2014)",
         "url" : null
     },
     {
-        "name" : "Simon Cooksey",
-        "comment" : "Dog's body (2012/2013, 2013/2014)",
-        "url" : "http://graymalk.in/"
-    },
-    {
         "name" : "Matthew Prentice",
-        "comment" : "President (2013 - 2014)",
+        "comment" : "President (2014)",
         "url" : "http://electronicbyte.cc/"
     },
     {
         "name" : "Ben Adamson",
         "comment" : "Media Officer (2013 - 2015)", 
         "url" : null,
+    },
+    {
+        "name" : "Daniel Knox",
+        "comment" : "President (2012/2013, 2014/2015)",
+        "image" : "committee/dan.jpg",
+        "url" : "http://cs.kent.ac.uk/~dk242/"
+    },
+    {
+        "name" : "Christina Nutton",
+        "comment" : "Treasurer (2014/2015)",
+        "image" : "committee/christina.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Jodie Perry",
+        "comment" : "Secretary (2014/2015)",
+        "image" : "committee/jodie.jpg",
+        "url" : "http://jodieperry.me/"
+    },
+    {
+        "name" : "Martin Faulkner",
+        "comment" : "Officer (2013/2014)",
+        "image" : "committee/martin.jpg",
+        "url" : "http://www.martinfaulkner.co.uk/"
+    },
+    {
+        "name" : "Robert Meekings",
+        "comment" : "Officer (2014/2015)",
+        "image" : "committee/robert.jpg",
+        "url" : null
     }]
 }
