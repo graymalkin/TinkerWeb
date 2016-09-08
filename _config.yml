@@ -5,6 +5,7 @@ paginate: 5
 paginate_path: "blog/page:num"
 permalink: "/:year/:month/:title/"
 brandname: TinkerSoc
+gems: [jekyll-paginate]
 live: true
 menufolders:
  - /blog
@@ -36,7 +37,7 @@ picture:
       source_medium:
         media: "(min-width: 40em)"
         width: "600"
-      source_default: 
+      source_default:
         width: "300"
     carousel-narow:
       ppi: [1, 1.5]
@@ -62,14 +63,14 @@ picture:
       source_sm:
         media: "(min-width: 481px) and (max-width: 768px)"
         width: "768"
-      source_default: 
+      source_default:
         width: "1920"
     icon:
       ppi: [1, 1.5]
       attr:
         class: "icon"
         itemprop: "image"
-      source_default: 
+      source_default:
         height: "32px"
 
 flickr_set:
@@ -82,4 +83,3 @@ flickr_set:
   image_size:    'm'
   image_class:   'item'
   api_key:       '251b6a7131ff48d65978013ff47083d1'
-

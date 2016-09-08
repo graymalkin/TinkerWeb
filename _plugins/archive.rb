@@ -18,11 +18,11 @@ module Jekyll
     safe true
     def generate(site)
       if site.layouts.key? 'archive_index'
-        site.posts.group_by{ |c| {"month" => c.date.month, "year" => c.date.year} }.each do |period, posts|
+        site.posts.docs.group_by{ |c| {"month" => c.date.month, "year" => c.date.year} }.each do |period, posts|
           archive_dir = File.join(period["year"].to_s(), "%02d" % period["month"].to_s())
           write_archive_index(site, archive_dir, period, posts)
         end
-        site.posts.group_by{ |c| {"year" => c.date.year} }.each do |period, posts|
+        site.posts.docs.group_by{ |c| {"year" => c.date.year} }.each do |period, posts|
           archive_dir = period["year"].to_s()
           write_archive_index(site, archive_dir, period, posts)
         end
@@ -32,7 +32,7 @@ module Jekyll
     def write_archive_index(site, dir, period, posts)
       index = ArchiveIndex.new(site, site.source, dir, period, posts)
       index.render(site.layouts, site.site_payload)
-      index.write(site.dest)
+      # index.write(site.dest)
       site.pages << index
     end
   end

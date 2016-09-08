@@ -1,7 +1,7 @@
 ---
-layout: blog 
+layout: blog
 title: Blog
-postload: 
+postload:
  - waypoints.min.js
  - waypoints-infinite.min.js
  - blog.js
@@ -14,7 +14,7 @@ postload:
     {% for post in paginator.posts %}
     <article class="row blog-post-index infinite-item">
       <div class="blog-sep">{{ post.date | date_to_string }}</div>
-      <h2 class="blog-heading"><a href="{{%site.url}}{{ post.url }}">{{ post.title }}</a></h2>
+      <h2 class="blog-heading"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
     </article>
     <hr class="blog-sep infinite-item"/>
@@ -35,4 +35,3 @@ postload:
     {% endif %}
   </div>
 </section>
-
